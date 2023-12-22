@@ -26,4 +26,7 @@ public class User {
     private String updateBy;
     @TableField(fill = FieldFill.UPDATE)
     private LocalDateTime updateTime;
+
+    private Integer pageStart;
+    private Integer pageSize;
 }

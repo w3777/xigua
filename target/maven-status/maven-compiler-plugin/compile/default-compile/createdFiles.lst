@@ -1,0 +1,13 @@
+com\xigua\mybatis\handler\InsertBatchMethod.class
+com\xigua\mybatis\handler\MySqlInjector.class
+com\xigua\thread\Test$MyRunnable.class
+com\xigua\mybatis\handler\CommonBaseMapper.class
+com\xigua\mybatis\handler\MyMetaObjectHandler.class
+com\xigua\entity\User.class
+com\xigua\thread\Test$MyThread.class
+com\xigua\thread\Test.class
+com\xigua\XiguaApplication.class
+com\xigua\mybatis\config\MyBatisConfig.class
+com\xigua\threadPool\Test.class
+com\xigua\mapper\UserMapper.class
+com\xigua\service\impl\UserServiceImpl.class

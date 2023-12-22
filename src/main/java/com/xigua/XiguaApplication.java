@@ -11,7 +11,6 @@ public class XiguaApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(XiguaApplication.class, args);
-        TableInfo tableInfo = TableInfoHelper.getTableInfo(User.class);
     }
 
 }

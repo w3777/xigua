@@ -5,7 +5,7 @@ spring:
     username: root
     password: 123456
   elasticsearch:
-    uris: http://localhost:9310
+    uris: http://localhost:9202
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.xigua.xigua.entity
