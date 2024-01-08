@@ -7,6 +7,7 @@ import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;
 import com.xigua.entity.User;
 import com.xigua.mapper.UserMapper;
+import com.xigua.rabbitmq.MessageProducer;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -35,6 +36,9 @@ public class XiGuaTest {
 
     @Autowired
     private ApplicationContext context;
+
+    @Autowired
+    private MessageProducer messageProducer;
 
     @Test
     public void test1() throws Exception {
@@ -144,5 +148,10 @@ public class XiGuaTest {
                 excelWriter.finish();
             }
         }
+    }
+
+    @Test
+    void test03(){
+        messageProducer.sendMessage("123");
     }
 }
